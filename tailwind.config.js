@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'like' : "url('/likeAnim.png')",
+        'like' : "url('https://ggaabriel.github.io/valentines-day/likeAnim.png')",
       },
       keyframes: {
         like: {
