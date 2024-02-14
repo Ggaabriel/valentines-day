@@ -8,10 +8,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'like' : "url('/likeAnim.png')",
       },
+      keyframes: {
+        like: {
+          from: { backgroundPosition: "0px" },
+          to: { backgroundPosition: "-2400px" },
+        },
+      },
+      animation: {
+        'likeAnim' : 'like 1s steps(24) forwards;',
+    },
     },
   },
   plugins: [],
