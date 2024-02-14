@@ -14,7 +14,7 @@ export default function Home() {
       ) : (
         <>
           <Image
-            src="/heh.gif"
+            src="https://ggaabriel.github.io/valentines-day/heh.gif"
             alt="kitty"
             width={400}
             height={400}

@@ -74,7 +74,7 @@ const LoadingComponent = () => {
           {!error && <p className="text-4xl text-white">{`${count}% Загрузка...`}</p>}
         </div>
       ) : (
-        <Image src="/kittyDance.gif" alt="kitty" width={400} height={400} priority={true}/>
+        <Image src="https://ggaabriel.github.io/valentines-day/kittyDance.gif" alt="kitty" width={400} height={400} priority={true}/>
       )}
     </div>
   );
